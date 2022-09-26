@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/06dbd9c6a8.js" crossorigin="anonymous" defer></script>
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <div id="container-main">
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+
+        <section>
+            <div>
+                <form>
+                    <div id="container-nasc">
+                        <label for="txtano">Ano de Nascimento:</label>
+                        <input type="text" name="txtano" id="txtano" min="1" required>
+                    </div>
+
+                    <div id="container-sexo">
+                        <label>Sexo:</label>
+                        <input type="radio" name="radsex" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radsex" id="femi">
+                        <label for="femi">Feminino</label>
+                    </div>
+                    <input type="button" value="Verificar" id="button" onclick="verificar()">
+                    <input type="reset" value="Limpar">
+                </form>
+            </div>
+            <!-- Manipulação -->
+            <div id="res">
+                <p>Preencha os dados acima para ver o resultado</p>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                    <li>
+                        <a href="https://github.com/Erik-Sillva" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/erik-silva-601ab8240/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="https://linktr.ee/erik.__silva" target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>

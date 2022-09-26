@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(0, 75, 100);
+    color: rgba(255, 255, 255, 0.781);
+    font: normal 18pt Arial;
+}
